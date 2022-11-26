@@ -1553,3 +1553,578 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.11.26-16.23.24:458][716]LogContentValidation: Display: Validating Blueprint /Game/Main/Blueprints/Actors/PlayerStart.PlayerStart
 [2022.11.26-16.24.00:431][221]LogSlate: Window 'Project Settings' being destroyed
 [2022.11.26-16.24.00:434][221]LogSlate: Window 'Project Settings' being destroyed
+[2022.11.26-16.29.35:646][734]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.26-16.29.35:652][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.26-16.29.35:652][734]PIE: New page: PIE session: Main (26 lis 2022, 18:29:35)
+[2022.11.26-16.29.35:688][734]LogPlayLevel: Creating play world package: /Game/Main/Levels/UEDPIE_0_Main
+[2022.11.26-16.29.35:690][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001946s)
+[2022.11.26-16.29.35:691][734]LogAIModule: Creating AISystem for world Main
+[2022.11.26-16.29.35:691][734]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2022.11.26-16.29.35:691][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Levels/Main.Main to /Game/Main/Levels/UEDPIE_0_Main.Main (0.003467s)
+[2022.11.26-16.29.35:705][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.11.26-16.29.35:708][734]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.11.26-16.29.35:708][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.26-16.29.35:708][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.26-16.29.35:708][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.26-16.29.35:708][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.26-16.29.35:708][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.26-16.29.35:708][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.26-16.29.35:708][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.26-16.29.35:708][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.26-16.29.35:709][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.26-16.29.35:709][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.26-16.29.35:709][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.26-16.29.35:709][734]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.26-16.29.35:712][734]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.26-16.29.35:712][734]LogAudioMixer: Display: 1: FrontRight
+[2022.11.26-16.29.35:720][734]LogAudioMixer: Display: Using Audio Device Zestaw słuchawkowy (G435 Wireless Gaming Headset)
+[2022.11.26-16.29.35:720][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.26-16.29.35:720][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.26-16.29.35:720][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.26-16.29.35:721][734]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.26-16.29.35:721][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.26-16.29.35:721][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.26-16.29.35:722][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.26-16.29.35:722][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.26-16.29.35:722][734]LogInit: FAudioDevice initialized.
+[2022.11.26-16.29.35:722][734]LogAudio: Display: Audio Device (ID: 12) registered with world 'Main'.
+[2022.11.26-16.29.35:732][734]LogLoad: Game class is 'BP_TopDownShooterGameMode_01_C'
+[2022.11.26-16.29.35:732][734]LogWorld: Bringing World /Game/Main/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.11.26-17.29.35
+[2022.11.26-16.29.35:732][734]LogWorld: Bringing up level for play took: 0.000376
+[2022.11.26-16.29.35:733][734]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.11.26-16.29.35:734][734]PIE: Server logged in
+[2022.11.26-16.29.35:735][734]PIE: Play in editor total start time 0,085 seconds.
+[2022.11.26-16.29.40:440][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.26-16.29.40:440][281]LogWorld: BeginTearingDown for /Game/Main/Levels/UEDPIE_0_Main
+[2022.11.26-16.29.40:441][281]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.29.40:441][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.29.40:445][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.26-16.29.40:457][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.29.40:467][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.26-16.29.40:468][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.26-16.29.40:468][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.26-16.29.40:472][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.11.26-16.29.40:523][284]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.11.26-16.31.10:877][725]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.26-16.31.10:879][725]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.11.26-16.31.10:897][725]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.31.21:160][725]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2022.11.26-16.31.21:165][725]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2022.11.26-16.31.21:174][725]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2022.11.26-16.32.17:899][477]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> NewAnimBlueprint
+[2022.11.26-16.32.17:904][477]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2022.11.26-16.32.18:001][477]LogLinker: Warning: Failed to load '/Game/Characters/Marine/Marine': Can't find file.
+[2022.11.26-16.32.18:001][477]LogLinker: Warning: Failed to load '/Game/Characters/Marine/Marine': Can't find file.
+[2022.11.26-16.32.18:001][477]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Marine/Marine.Marine'
+[2022.11.26-16.32.29:993][796]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> AB_Marine
+[2022.11.26-16.32.30:010][796]LogMetaData: Removing '/Game/Main/Characters/Marine/Animations/AB_Marine.AB_Marine:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Main/Characters/Marine/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.11.26-16.32.30:010][796]LogMetaData: Removing '/Game/Main/Characters/Marine/Animations/AB_Marine.SKEL_AB_Marine_C:AnimGraph' ref from Metadata '/Game/Main/Characters/Marine/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.11.26-16.32.30:010][796]LogMetaData: Removing '/Game/Main/Characters/Marine/Animations/AB_Marine.SKEL_AB_Marine_C' ref from Metadata '/Game/Main/Characters/Marine/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.11.26-16.32.30:010][796]LogMetaData: Removing '/Game/Main/Characters/Marine/Animations/AB_Marine.AB_Marine_C:AnimGraph' ref from Metadata '/Game/Main/Characters/Marine/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.11.26-16.32.30:010][796]LogMetaData: Removing '/Game/Main/Characters/Marine/Animations/AB_Marine.AB_Marine_C' ref from Metadata '/Game/Main/Characters/Marine/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.11.26-16.32.30:010][796]LogMetaData: Removing '/Game/Main/Characters/Marine/Animations/AB_Marine.AB_Marine:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Main/Characters/Marine/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.11.26-16.32.30:010][796]LogMetaData: Removing '/Game/Main/Characters/Marine/Animations/AB_Marine.AB_Marine:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Main/Characters/Marine/Animations/NewAnimBlueprint.PackageMetaData'
+[2022.11.26-16.32.30:031][796]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/AB_Marine9CE5A6B448CFA067E1B11F880D25F9D4.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/AB_Marine.uasset'
+[2022.11.26-16.32.30:088][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.11.26-16.32.30:111][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.11.26-16.32.30:121][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.11.26-16.32.30:145][796]AssetCheck: New page: Asset Save: AB_Marine
+[2022.11.26-16.32.30:146][796]LogContentValidation: Display: Validating AnimBlueprint /Game/Main/Characters/Marine/Animations/AB_Marine.AB_Marine
+[2022.11.26-16.32.44:629][209]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Main/Characters/Marine/Animations/AB_Marine.AB_Marine
+[2022.11.26-16.32.44:639][209]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.11.26-16.32.44:643][209]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.11.26-16.32.44:708][209]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.11.26-16.32.44:774][209]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2022.11.26-16.32.45:101][209]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.11.26-16.32.45:218][209]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.116 s
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: === Handled ensure: ===
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: 
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Blueprint.cpp] [Line: 904]
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: Type mismatch: Expected AB_Marine_C, Found AnimPreviewInstance
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: Stack: 
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffaeecb517 UE4Editor-Engine.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffad78ee54 UE4Editor-Engine.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fff9047d24a UE4Editor-AnimationBlueprintEditor.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fff90464d84 UE4Editor-AnimationBlueprintEditor.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffa361f29b UE4Editor-AssetTools.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffabda9441 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffabda9cfd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffabda9a2a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fff90f060cd UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fff90f062f0 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fff90ef2632 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffa3dfd63d UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffa3dbae40 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffa3d1dd7c UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffa3cdad97 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffa3c48944 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffa3d28ca7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffa3d1df6b UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffcb342758 UE4Editor-Slate.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffcb3bcad7 UE4Editor-Slate.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffcb3a6203 UE4Editor-Slate.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007fffcb399319 UE4Editor-Slate.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff82d0ebfff UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff82d0d92b7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff82d0ee465 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff82d0d4410 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff8544ce858 USER32.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff8544ce299 USER32.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff82d0efcd4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff604807621 UE4Editor.exe!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff604820fbc UE4Editor.exe!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff6048210aa UE4Editor.exe!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff6048240cd UE4Editor.exe!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff604835984 UE4Editor.exe!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff60483853a UE4Editor.exe!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff8543074b4 KERNEL32.DLL!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: [Callstack] 0x00007ff8547a26a1 ntdll.dll!UnknownFunction []
+[2022.11.26-16.32.45:218][209]LogOutputDevice: Error: 
+[2022.11.26-16.32.45:226][209]LogStats:                SubmitErrorReport -  0.000 s
+[2022.11.26-16.32.46:778][209]LogStats:                    SendNewReport -  1.553 s
+[2022.11.26-16.32.46:778][209]LogStats:             FDebug::EnsureFailed -  1.677 s
+[2022.11.26-16.32.47:197][209]LogAudioMixer: Resetting audio stream to device id 
+[2022.11.26-16.32.47:203][209]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.26-16.32.47:203][209]LogAudioMixer: Display: 1: FrontRight
+[2022.11.26-16.32.55:752][ 65]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.TutorialTPP_PhysicsAsset
+[2022.11.26-16.32.55:760][ 65]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2022.11.26-16.32.55:771][ 65]LogMaterial: Display: Missing cached shadermap for TutorialTPP_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 0FC1A475BF2889E60B8BD29DF8E5B8856EA915E2), compiling. 
+[2022.11.26-16.32.55:817][ 65]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.11.26-16.32.55:824][ 65]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 32
+[2022.11.26-16.32.55:824][ 65]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 27
+[2022.11.26-16.32.55:824][ 65]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 22
+[2022.11.26-16.32.55:824][ 65]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 17
+[2022.11.26-16.32.55:824][ 65]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2022.11.26-16.32.55:824][ 65]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2022.11.26-16.32.55:824][ 65]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.11.26-16.32.55:824][ 65]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2022.11.26-16.32.55:834][ 65]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.32.56:530][ 66]LogRenderer: Reallocating scene render targets to support 1208x800 Format 10 NumSamples 1 (Frame:1).
+[2022.11.26-16.32.56:715][ 70]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Engine/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.NewBlendSpace1D
+[2022.11.26-16.32.56:728][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.32.56:953][ 70]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.26-16.32.56:953][ 70]LogShaderCompilers: Display: Total job queries 32, among them cache hits 0 (0.00%)
+[2022.11.26-16.32.56:953][ 70]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2022.11.26-16.32.56:953][ 70]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.11.26-16.32.56:953][ 70]LogShaderCompilers: Display: ================================================
+[2022.11.26-16.33.03:955][742]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.TutorialTPP
+[2022.11.26-16.33.03:959][742]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.33.10:597][265]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.TutorialTPP_Skeleton
+[2022.11.26-16.33.10:600][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.33.12:665][425]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.TutorialTPP_AnimBlueprint
+[2022.11.26-16.33.12:669][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.33.15:672][659]LogSlate: Window 'TutorialTPP_AnimBlueprint' being destroyed
+[2022.11.26-16.33.15:678][659]LogSlate: Window 'TutorialTPP_AnimBlueprint' being destroyed
+[2022.11.26-16.33.15:713][659]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:713][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:723][659]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:723][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:784][659]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:784][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:797][659]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:797][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:836][659]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:836][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:872][659]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:872][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:886][659]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:886][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:925][659]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:925][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:965][659]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:965][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.15:975][659]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.15:975][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.16:036][659]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.16:036][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.18:527][889]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2022.11.26-16.33.19:686][889]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.26-16.33.19:792][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.11.26-16.33.19:810][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.11.26-16.33.19:821][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.11.26-16.33.28:208][300]LogSlate: Window 'Pick Skeleton' being destroyed
+[2022.11.26-16.33.39:970][500]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Main/Characters/Marine/Marine.Marine
+[2022.11.26-16.33.39:973][500]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.33.42:449][711]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Main/Characters/Marine/Marine_Skeleton1.Marine_Skeleton1
+[2022.11.26-16.33.42:452][711]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.33.49:731][429]LogSlate: Window 'Marine_Skeleton1' being destroyed
+[2022.11.26-16.33.49:737][429]LogSlate: Window 'Marine_Skeleton1' being destroyed
+[2022.11.26-16.33.49:758][429]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.49:758][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.49:795][429]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.33.49:795][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.33.55:265][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.11.26-16.33.57:842][935]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.26-16.33.59:966][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.11.26-16.34.02:195][143]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.26-16.34.02:256][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.11.26-16.34.02:276][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.11.26-16.34.02:288][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.11.26-16.34.14:692][448]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.26-16.34.14:694][448]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.11.26-16.34.14:713][448]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.34.16:899][448]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2022.11.26-16.34.16:904][448]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2022.11.26-16.34.16:912][448]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2022.11.26-16.34.26:931][637]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> AB_MarineMovement
+[2022.11.26-16.34.26:934][637]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2022.11.26-16.34.29:481][901]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Main/Characters/Marine/Animations/AB_MarineMovement.AB_MarineMovement
+[2022.11.26-16.34.29:486][901]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.35.22:620][319]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Death.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.22:621][319]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Death.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.22:621][319]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Death.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.22:621][319]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Death.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.22:621][319]LoadErrors: Failed to load /Game/Characters/Marine/Marine_Skeleton.Marine_Skeleton Referenced by Death
+[2022.11.26-16.35.25:956][578]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Bwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.25:956][578]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Bwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.25:956][578]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Bwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.25:956][578]LoadErrors: Failed to load /Game/Characters/Marine/Marine_Skeleton.Marine_Skeleton Referenced by Run_Bwd
+[2022.11.26-16.35.31:013][858]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.35.33:910][858]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.35.33:913][858]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Run_Bwd' Would you like to choose a new one?
+[2022.11.26-16.35.34:009][858]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.35.35:918][ 57]LogLinker: Warning: Failed to load '/Game/Characters/Enemy_Great_Spider/SK_Greater_Spider': Can't find file.
+[2022.11.26-16.35.35:918][ 57]LogLinker: Warning: Failed to load '/Game/Characters/Enemy_Great_Spider/SK_Greater_Spider': Can't find file.
+[2022.11.26-16.35.35:918][ 57]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Characters/Enemy_Great_Spider/SK_Greater_Spider.SK_Greater_Spider'
+[2022.11.26-16.35.37:373][211]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.35.37:410][211]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.35.37:628][211]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.35.37:630][211]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.37:630][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.37:637][211]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.37:638][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.37:950][211]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.35.43:362][752]LogSlate: Window 'Run_Bwd' being destroyed
+[2022.11.26-16.35.43:368][752]LogSlate: Window 'Run_Bwd' being destroyed
+[2022.11.26-16.35.43:421][752]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.43:421][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.43:427][752]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.43:427][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.43:486][752]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.43:486][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.43:497][752]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.43:497][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.43:507][752]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.43:507][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.43:545][752]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.43:545][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.44:668][863]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Fwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.44:668][863]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Fwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.44:668][863]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Fwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.44:668][863]LoadErrors: Failed to load /Game/Characters/Marine/Marine_Skeleton.Marine_Skeleton Referenced by Run_Fwd
+[2022.11.26-16.35.44:686][863]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Fwd.Run_Fwd
+[2022.11.26-16.35.46:322][863]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.35.46:325][863]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Run_Fwd' Would you like to choose a new one?
+[2022.11.26-16.35.46:440][863]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.35.48:501][ 85]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Fwd.Run_Fwd
+[2022.11.26-16.35.48:546][ 85]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Fwd.Run_Fwd
+[2022.11.26-16.35.48:549][ 85]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.35.48:779][ 85]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.35.48:780][ 85]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.48:781][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.48:791][ 85]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.48:791][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.48:850][ 85]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Fwd.Run_Fwd
+[2022.11.26-16.35.48:887][ 85]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.35.54:082][573]LogSlate: Window 'Run_Fwd' being destroyed
+[2022.11.26-16.35.54:087][573]LogSlate: Window 'Run_Fwd' being destroyed
+[2022.11.26-16.35.54:133][573]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.54:133][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.54:143][573]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.54:144][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.54:177][573]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.54:177][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.55:120][670]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Lt.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.55:120][670]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Lt.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.55:120][670]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Lt.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.35.55:120][670]LoadErrors: Failed to load /Game/Characters/Marine/Marine_Skeleton.Marine_Skeleton Referenced by Run_Lt
+[2022.11.26-16.35.55:142][670]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Lt.Run_Lt
+[2022.11.26-16.35.56:489][670]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.35.56:492][670]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Run_Lt' Would you like to choose a new one?
+[2022.11.26-16.35.56:591][670]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.35.59:392][962]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Lt.Run_Lt
+[2022.11.26-16.35.59:430][962]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Lt.Run_Lt
+[2022.11.26-16.35.59:433][962]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.35.59:675][962]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.35.59:723][962]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.59:723][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.59:736][962]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.35.59:736][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.35.59:801][962]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Lt.Run_Lt
+[2022.11.26-16.35.59:840][962]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.36.02:059][183]LogSlate: Window 'Run_Lt' being destroyed
+[2022.11.26-16.36.02:064][183]LogSlate: Window 'Run_Lt' being destroyed
+[2022.11.26-16.36.02:064][183]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.02:064][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.02:076][183]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.02:076][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.02:110][183]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.02:110][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.03:154][295]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Rt.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.03:154][295]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Rt.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.03:154][295]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Rt.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.03:154][295]LoadErrors: Failed to load /Game/Characters/Marine/Marine_Skeleton.Marine_Skeleton Referenced by Run_Rt
+[2022.11.26-16.36.03:231][295]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Rt.Run_Rt
+[2022.11.26-16.36.04:611][295]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.36.04:614][295]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Run_Rt' Would you like to choose a new one?
+[2022.11.26-16.36.04:727][295]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.36.06:520][482]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Rt.Run_Rt
+[2022.11.26-16.36.06:566][482]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Rt.Run_Rt
+[2022.11.26-16.36.06:569][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.36.06:811][482]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.36.06:812][482]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.06:812][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.06:826][482]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.06:826][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.06:883][482]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Rt.Run_Rt
+[2022.11.26-16.36.06:929][482]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.36.08:423][623]LogSlate: Window 'Run_Rt' being destroyed
+[2022.11.26-16.36.08:427][623]LogSlate: Window 'Run_Rt' being destroyed
+[2022.11.26-16.36.08:464][623]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.08:464][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.08:474][623]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.08:474][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.08:514][623]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.08:514][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.09:287][707]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Sprint.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.09:287][707]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Sprint.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.09:288][707]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Sprint.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.09:288][707]LoadErrors: Failed to load /Game/Characters/Marine/Marine_Skeleton.Marine_Skeleton Referenced by Sprint
+[2022.11.26-16.36.09:306][707]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Sprint.Sprint
+[2022.11.26-16.36.10:617][707]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.36.10:620][707]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Sprint' Would you like to choose a new one?
+[2022.11.26-16.36.10:730][707]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.36.12:643][902]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Sprint.Sprint
+[2022.11.26-16.36.12:689][902]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Sprint.Sprint
+[2022.11.26-16.36.12:692][902]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.36.12:921][902]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.36.12:922][902]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.12:923][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.12:932][902]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.12:932][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.13:018][902]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Sprint.Sprint
+[2022.11.26-16.36.13:056][902]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.36.14:659][ 34]LogSlate: Window 'Sprint' being destroyed
+[2022.11.26-16.36.14:663][ 34]LogSlate: Window 'Sprint' being destroyed
+[2022.11.26-16.36.14:695][ 34]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.14:695][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.14:705][ 34]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.14:705][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.14:745][ 34]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.14:745][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.15:915][157]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Idle.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.15:916][157]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Idle.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.15:916][157]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Idle.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.36.15:916][157]LoadErrors: Failed to load /Game/Characters/Marine/Marine_Skeleton.Marine_Skeleton Referenced by Idle
+[2022.11.26-16.36.15:937][157]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Idle.Idle
+[2022.11.26-16.36.17:259][157]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.36.17:262][157]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Idle' Would you like to choose a new one?
+[2022.11.26-16.36.17:373][157]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.36.18:810][302]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Idle.Idle
+[2022.11.26-16.36.18:810][302]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Idle.Idle
+[2022.11.26-16.36.18:852][302]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Idle.Idle
+[2022.11.26-16.36.18:854][302]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.36.19:097][302]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.36.19:099][302]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.19:099][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.19:113][302]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.19:113][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.19:206][302]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Idle.Idle
+[2022.11.26-16.36.19:243][302]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.36.20:709][435]LogSlate: Window 'Idle' being destroyed
+[2022.11.26-16.36.20:714][435]LogSlate: Window 'Idle' being destroyed
+[2022.11.26-16.36.20:736][435]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.20:736][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.20:746][435]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.20:746][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.20:783][435]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.20:783][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.21:713][531]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence.Marine_Skeleton_Sequence
+[2022.11.26-16.36.23:322][531]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.36.23:325][531]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Marine_Skeleton_Sequence' Would you like to choose a new one?
+[2022.11.26-16.36.23:454][531]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.36.25:025][688]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence.Marine_Skeleton_Sequence
+[2022.11.26-16.36.25:068][688]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence.Marine_Skeleton_Sequence
+[2022.11.26-16.36.25:070][688]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.36.25:298][688]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.36.25:345][688]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.25:346][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.25:359][688]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.25:359][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.25:424][688]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence.Marine_Skeleton_Sequence
+[2022.11.26-16.36.25:462][688]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.36.26:953][820]LogSlate: Window 'Marine_Skeleton_Sequence' being destroyed
+[2022.11.26-16.36.26:958][820]LogSlate: Window 'Marine_Skeleton_Sequence' being destroyed
+[2022.11.26-16.36.26:986][820]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.26:986][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.26:996][820]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.26:996][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.27:035][820]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.27:035][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.27:854][902]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.36.28:139][902]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.36.48:263][884]LogSlate: Window 'Run_Bwd' being destroyed
+[2022.11.26-16.36.48:269][884]LogSlate: Window 'Run_Bwd' being destroyed
+[2022.11.26-16.36.48:298][884]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.48:298][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.48:309][884]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.48:309][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.48:346][884]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.48:346][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.49:362][985]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Death.Death
+[2022.11.26-16.36.50:697][985]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.36.50:700][985]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Death' Would you like to choose a new one?
+[2022.11.26-16.36.50:811][985]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.36.52:317][142]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Death.Death
+[2022.11.26-16.36.52:358][142]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Death.Death
+[2022.11.26-16.36.52:361][142]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_67:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.36.52:601][142]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.36.52:629][142]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.52:629][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.52:638][142]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.52:638][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.52:701][142]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Death.Death
+[2022.11.26-16.36.52:740][142]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.36.54:469][290]LogSlate: Window 'Death' being destroyed
+[2022.11.26-16.36.54:473][290]LogSlate: Window 'Death' being destroyed
+[2022.11.26-16.36.54:510][290]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.54:510][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.54:521][290]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.54:521][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.36.54:557][290]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.36.54:557][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.37.19:691][593]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2022.11.26-16.37.25:950][593]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.26-16.37.25:968][593]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.37.26:546][593]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2022.11.26-16.37.26:559][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.11.26-16.37.26:569][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.11.26-16.37.26:674][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.11.26-16.37.26:674][594]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main/Levels/Main' took 0.011
+[2022.11.26-16.37.26:675][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence] ([1] browsable assets)...
+[2022.11.26-16.37.26:689][594]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence.Marine_Skeleton_Sequence]
+[2022.11.26-16.37.26:689][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence]
+[2022.11.26-16.37.26:695][594]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Marine_Skeleton_Sequence_Auto1427C63694865183F3003E5BC6ACED4EC.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence_Auto1.uasset'
+[2022.11.26-16.37.26:695][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Main/Characters/Marine/Animations/Death] ([1] browsable assets)...
+[2022.11.26-16.37.26:709][594]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Main/Characters/Marine/Animations/Death.Death]
+[2022.11.26-16.37.26:709][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Characters/Marine/Animations/Death]
+[2022.11.26-16.37.26:715][594]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Death_Auto1E404226F43348D931D1984A03732EB3D.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Characters/Marine/Animations/Death_Auto1.uasset'
+[2022.11.26-16.37.26:716][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Main/Characters/Marine/Animations/Idle] ([1] browsable assets)...
+[2022.11.26-16.37.26:730][594]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Main/Characters/Marine/Animations/Idle.Idle]
+[2022.11.26-16.37.26:730][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Characters/Marine/Animations/Idle]
+[2022.11.26-16.37.26:735][594]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Idle_Auto18C06972B43A7A59B78CFF3B3FD117246.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Characters/Marine/Animations/Idle_Auto1.uasset'
+[2022.11.26-16.37.26:736][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Main/Characters/Marine/Animations/Run_Rt] ([1] browsable assets)...
+[2022.11.26-16.37.26:750][594]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Main/Characters/Marine/Animations/Run_Rt.Run_Rt]
+[2022.11.26-16.37.26:750][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Characters/Marine/Animations/Run_Rt]
+[2022.11.26-16.37.26:755][594]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Run_Rt_Auto1FED52CBA4A16DFEA8252EE8108C17860.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Characters/Marine/Animations/Run_Rt_Auto1.uasset'
+[2022.11.26-16.37.26:756][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Main/Characters/Marine/Animations/Sprint] ([1] browsable assets)...
+[2022.11.26-16.37.26:770][594]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Main/Characters/Marine/Animations/Sprint.Sprint]
+[2022.11.26-16.37.26:770][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Characters/Marine/Animations/Sprint]
+[2022.11.26-16.37.26:775][594]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Sprint_Auto1568D64A24E833C5E66C3109F1F319302.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Characters/Marine/Animations/Sprint_Auto1.uasset'
+[2022.11.26-16.37.26:776][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Main/Characters/Marine/Animations/Run_Fwd] ([1] browsable assets)...
+[2022.11.26-16.37.26:790][594]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Main/Characters/Marine/Animations/Run_Fwd.Run_Fwd]
+[2022.11.26-16.37.26:790][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Characters/Marine/Animations/Run_Fwd]
+[2022.11.26-16.37.26:795][594]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Run_Fwd_Auto11C3D017449562C905FB0B7A09B4431D2.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Characters/Marine/Animations/Run_Fwd_Auto1.uasset'
+[2022.11.26-16.37.26:796][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Main/Characters/Marine/Animations/Run_Lt] ([1] browsable assets)...
+[2022.11.26-16.37.26:810][594]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Main/Characters/Marine/Animations/Run_Lt.Run_Lt]
+[2022.11.26-16.37.26:810][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Characters/Marine/Animations/Run_Lt]
+[2022.11.26-16.37.26:815][594]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Run_Lt_Auto1B431B9E64BE18C86B67FBFAC3D4B3A58.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Characters/Marine/Animations/Run_Lt_Auto1.uasset'
+[2022.11.26-16.37.26:816][594]LogFileHelpers: Auto-saving content packages took 0.141
+[2022.11.26-16.38.24:872][726]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Bwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.38.24:873][726]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Bwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.38.24:873][726]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Bwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.38.24:873][726]LogLinker: Warning: [AssetLog] C:\Users\annaf\Documents\GitHub\Top-Down-Shooter-A-Czernecka\Content\Main\Characters\Marine\Animations\Run_Bwd.uasset: Failed to load '/Game/Characters/Marine/Marine_Skeleton': Can't find file.
+[2022.11.26-16.38.24:891][726]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.38.26:290][726]LogSlate: Window 'Message' being destroyed
+[2022.11.26-16.38.26:294][726]Message dialog closed, result: Yes, title: Message, text: Could not find the skeleton for Anim 'Run_Bwd' Would you like to choose a new one?
+[2022.11.26-16.38.26:407][726]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.11.26-16.38.28:163][896]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.38.28:206][896]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.38.28:209][896]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_72:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.38.28:451][896]LogSlate: Window 'Select Skeleton' being destroyed
+[2022.11.26-16.38.28:452][896]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.38.28:452][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.38.28:465][896]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.38.28:465][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.38.28:523][896]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
+[2022.11.26-16.38.28:561][896]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.38.30:451][ 71]LogSlate: Window 'Run_Bwd' being destroyed
+[2022.11.26-16.38.30:455][ 71]LogSlate: Window 'Run_Bwd' being destroyed
+[2022.11.26-16.38.30:480][ 71]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.38.30:481][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.38.30:489][ 71]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.38.30:489][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.38.30:526][ 71]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.38.30:526][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.38.35:294][600]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Main/Characters/Marine/Animations/AB_MarineMovement.AB_MarineMovement
+[2022.11.26-16.38.35:298][600]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_76:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.38.35:874][600]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.39.28:228][922]BlueprintLog: New page: Compile AB_MarineMovement
+[2022.11.26-16.39.28:260][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.11.26-16.39.52:855][ 87]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Main/Characters/Marine/Marine.Marine
+[2022.11.26-16.39.52:858][ 87]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_78:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.40.09:797][859]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Main/Blueprints/Pawns/BP_Soldier01.BP_Soldier01
+[2022.11.26-16.40.28:211][852]LogRenderer: Reallocating scene render targets to support 1208x812 Format 10 NumSamples 1 (Frame:1).
+[2022.11.26-16.40.35:172][521]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.11.26-16.40.35:188][521]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.26-16.40.42:950][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main/Blueprints/Pawns/BP_Soldier01" FILE="C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Blueprints/Pawns/BP_Soldier01.uasset" SILENT=true
+[2022.11.26-16.40.42:959][330]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/BP_Soldier01AD51C9CF4C17F4951888339837908FAE.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Blueprints/Pawns/BP_Soldier01.uasset'
+[2022.11.26-16.40.42:972][330]AssetCheck: New page: Asset Save: BP_Soldier01
+[2022.11.26-16.40.42:972][330]LogContentValidation: Display: Validating Blueprint /Game/Main/Blueprints/Pawns/BP_Soldier01.BP_Soldier01
+[2022.11.26-16.40.44:690][513]LogSlate: Window 'BP_Soldier01' being destroyed
+[2022.11.26-16.40.44:694][513]LogSlate: Window 'BP_Soldier01' being destroyed
+[2022.11.26-16.40.44:746][513]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.40.44:746][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.40.44:751][513]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.40.44:751][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.40.44:810][513]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.40.44:810][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.40.44:822][513]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.40.44:822][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.40.44:862][513]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.40.44:862][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.42.32:036][ 19]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Main/Characters/Marine/Animations/AB_MarineMovement.AB_MarineMovement
+[2022.11.26-16.42.32:040][ 19]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.42.32:539][ 19]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.11.26-16.48.31:393][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2022.11.26-16.48.31:395][335]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main/Levels/Main' took 0.023
+[2022.11.26-16.48.31:395][335]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Main/Characters/Marine/Animations/Run_Bwd] ([1] browsable assets)...
+[2022.11.26-16.48.31:411][335]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd]
+[2022.11.26-16.48.31:411][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Characters/Marine/Animations/Run_Bwd]
+[2022.11.26-16.48.31:416][335]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Run_Bwd_Auto25D91166E460805423BE1988F99B1E618.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Characters/Marine/Animations/Run_Bwd_Auto2.uasset'
+[2022.11.26-16.48.31:417][335]LogFileHelpers: Auto-saving content packages took 0.022
+[2022.11.26-16.49.17:376][123]LogEditorTransaction: Undo Add Node
+[2022.11.26-16.49.17:451][123]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_81:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-16.55.18:306][721]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/AB_MarineMovement7838D3364E56DA9C2F56FE85FD1880E8.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/AB_MarineMovement.uasset'
+[2022.11.26-16.55.18:323][721]AssetCheck: New page: Asset Save: AB_MarineMovement
+[2022.11.26-16.55.18:323][721]LogContentValidation: Display: Validating AnimBlueprint /Game/Main/Characters/Marine/Animations/AB_MarineMovement.AB_MarineMovement
+[2022.11.26-16.55.20:684][986]LogSlate: Window 'AB_MarineMovement' being destroyed
+[2022.11.26-16.55.20:689][986]LogSlate: Window 'AB_MarineMovement' being destroyed
+[2022.11.26-16.55.20:693][986]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.55.20:693][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.55.20:698][986]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.55.20:698][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.55.20:755][986]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-16.55.20:755][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-16.55.22:944][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.11.26-16.55.22:967][221]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Marine_Skeleton_SequenceF83DD79349265CB49546168FCBE05DD0.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence.uasset'
+[2022.11.26-16.55.22:969][221]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/DeathD3F30E6140E2395A7EEA6BAFBE3DC8C8.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/Death.uasset'
+[2022.11.26-16.55.22:971][221]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Idle1696F50C4137FBE4B3A8F9AB4F246DAE.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/Idle.uasset'
+[2022.11.26-16.55.22:974][221]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Run_RtD2AE8A6442B3905A8FEAACBC1FA0C2A1.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/Run_Rt.uasset'
+[2022.11.26-16.55.22:976][221]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Sprint7C5F712A4154A4FA345D17B7FDCF0A58.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/Sprint.uasset'
+[2022.11.26-16.55.22:978][221]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Run_Fwd1195C1F84880F32580FED9AD81616D53.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/Run_Fwd.uasset'
+[2022.11.26-16.55.22:980][221]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Run_Lt475CB97348E27D3E165AD4A58E4C86EF.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/Run_Lt.uasset'
+[2022.11.26-16.55.22:983][221]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Run_BwdBE1D6B784CAE25186F4C1F9B42B83647.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Characters/Marine/Animations/Run_Bwd.uasset'
+[2022.11.26-16.55.22:996][221]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.26-16.55.22:997][221]LogContentValidation: Display: Validating AnimSequence /Game/Main/Characters/Marine/Animations/Death.Death
+[2022.11.26-16.55.22:997][221]LogContentValidation: Display: Validating AnimSequence /Game/Main/Characters/Marine/Animations/Marine_Skeleton_Sequence.Marine_Skeleton_Sequence
+[2022.11.26-16.55.22:997][221]LogContentValidation: Display: Validating AnimSequence /Game/Main/Characters/Marine/Animations/Run_Fwd.Run_Fwd
+[2022.11.26-16.55.22:997][221]LogContentValidation: Display: Validating AnimSequence /Game/Main/Characters/Marine/Animations/Idle.Idle
+[2022.11.26-16.55.22:997][221]LogContentValidation: Display: Validating AnimSequence /Game/Main/Characters/Marine/Animations/Sprint.Sprint
+[2022.11.26-16.55.22:997][221]LogContentValidation: Display: Validating AnimSequence /Game/Main/Characters/Marine/Animations/Run_Rt.Run_Rt
+[2022.11.26-16.55.22:997][221]LogContentValidation: Display: Validating AnimSequence /Game/Main/Characters/Marine/Animations/Run_Lt.Run_Lt
+[2022.11.26-16.55.22:997][221]LogContentValidation: Display: Validating AnimSequence /Game/Main/Characters/Marine/Animations/Run_Bwd.Run_Bwd
