@@ -1344,3 +1344,94 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.01.08-10.44.39:498][809]AssetCheck: New page: Asset Save: multiple assets
 [2023.01.08-10.44.39:498][809]LogContentValidation: Display: Validating Blueprint /Game/Main/Blueprints/Pawns/BP_Soldier01.BP_Soldier01
 [2023.01.08-10.44.39:498][809]LogContentValidation: Display: Validating SoundCue /Game/Main/Sounds/Weapon_AssaultRifle/Stereo/AssaultRifle_EndShoot_Stereo_Cue.AssaultRifle_EndShoot_Stereo_Cue
+[2023.01.08-10.53.47:367][116]LogEditorTransaction: Undo Change Object Pin Value
+[2023.01.08-10.54.45:208][251]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.08-10.54.45:215][251]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.08-10.54.45:216][251]LogPlayLevel: [PlayLevel] Compiling BP_Soldier01 before play...
+[2023.01.08-10.54.45:261][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.01.08-10.54.45:262][251]LogPlayLevel: PlayLevel: Blueprint regeneration took 47 ms (1 blueprints)
+[2023.01.08-10.54.45:262][251]PIE: New page: PIE session: Main (8 sty 2023, 12:54:45)
+[2023.01.08-10.54.45:262][251]LogPlayLevel: Creating play world package: /Game/Main/Levels/UEDPIE_0_Main
+[2023.01.08-10.54.45:264][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001729s)
+[2023.01.08-10.54.45:265][251]LogAIModule: Creating AISystem for world Main
+[2023.01.08-10.54.45:265][251]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2023.01.08-10.54.45:265][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main/Levels/Main.Main to /Game/Main/Levels/UEDPIE_0_Main.Main (0.002834s)
+[2023.01.08-10.54.45:279][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.01.08-10.54.45:279][251]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.01.08-10.54.45:279][251]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.08-10.54.45:279][251]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.08-10.54.45:279][251]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.08-10.54.45:279][251]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.08-10.54.45:279][251]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.08-10.54.45:279][251]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.08-10.54.45:280][251]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.08-10.54.45:280][251]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.08-10.54.45:280][251]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.08-10.54.45:280][251]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.08-10.54.45:280][251]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.08-10.54.45:280][251]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.08-10.54.45:283][251]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.08-10.54.45:283][251]LogAudioMixer: Display: 1: FrontRight
+[2023.01.08-10.54.45:291][251]LogAudioMixer: Display: Using Audio Device Zestaw słuchawkowy (G435 Wireless Gaming Headset)
+[2023.01.08-10.54.45:291][251]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.08-10.54.45:291][251]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.08-10.54.45:291][251]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.08-10.54.45:292][251]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.08-10.54.45:292][251]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.08-10.54.45:292][251]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.08-10.54.45:292][251]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.08-10.54.45:293][251]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.08-10.54.45:293][251]LogInit: FAudioDevice initialized.
+[2023.01.08-10.54.45:293][251]LogAudio: Display: Audio Device (ID: 6) registered with world 'Main'.
+[2023.01.08-10.54.45:298][251]LogLoad: Game class is 'BP_TopDownShooterGameMode_01_C'
+[2023.01.08-10.54.45:298][251]LogWorld: Bringing World /Game/Main/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2023.01.08-11.54.45
+[2023.01.08-10.54.45:299][251]LogWorld: Bringing up level for play took: 0.000381
+[2023.01.08-10.54.45:299][251]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2023.01.08-10.54.45:301][251]LogScript: Warning: Accessed None trying to read property RifleFireSound
+	BP_Soldier01_C /Game/Main/Levels/UEDPIE_0_Main.Main:PersistentLevel.BP_Soldier01_C_0
+	Function /Game/Main/Blueprints/Pawns/BP_Soldier01.BP_Soldier01_C:StopFire:0033
+[2023.01.08-10.54.45:301][251]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property RifleFireSound". Blueprint:  BP_Soldier01 Function:  Stop Fire Graph:  StopFire Node:  Stop
+[2023.01.08-10.54.45:301][251]PIE: Server logged in
+[2023.01.08-10.54.45:302][251]PIE: Play in editor total start time 0,089 seconds.
+[2023.01.08-10.54.51:097][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.08-10.54.51:098][939]LogWorld: BeginTearingDown for /Game/Main/Levels/UEDPIE_0_Main
+[2023.01.08-10.54.51:098][939]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.01.08-10.54.51:098][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.08-10.54.51:107][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.08-10.54.51:111][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.08-10.54.51:123][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.08-10.54.51:123][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.08-10.54.51:124][939]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.08-10.54.51:128][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.01.08-10.54.51:240][939]LogSlate: Took 0.000877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.01.08-10.54.51:243][940]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.01.08-10.54.54:927][347]LogSlate: Window 'Message Log' being destroyed
+[2023.01.08-10.54.54:931][347]LogSlate: Window 'Message Log' being destroyed
+[2023.01.08-10.56.39:940][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.01.08-10.56.39:941][496]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main/Levels/Main' took 0.016
+[2023.01.08-10.56.39:942][496]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Main/Blueprints/Pawns/BP_Soldier01] ([4] browsable assets)...
+[2023.01.08-10.56.39:960][496]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Main/Blueprints/Pawns/BP_Soldier01.BP_Soldier01]
+[2023.01.08-10.56.39:971][496]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Main/Blueprints/Pawns/BP_Soldier01.BP_Soldier01]
+[2023.01.08-10.56.39:971][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/Main/Blueprints/Pawns/BP_Soldier01]
+[2023.01.08-10.56.39:997][496]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/BP_Soldier01_Auto31FA2229F4FC9F99DB89448B1A9805492.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/Autosaves/Game/Main/Blueprints/Pawns/BP_Soldier01_Auto3.uasset'
+[2023.01.08-10.56.39:997][496]LogFileHelpers: Auto-saving content packages took 0.056
+[2023.01.08-10.58.35:209][117]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.01.08-10.58.35:217][117]LogContentBrowser: Creating deferred item: NewFolder
+[2023.01.08-10.58.39:594][642]LogContentBrowser: Attempting asset rename: NewFolder -> UMG
+[2023.01.08-10.58.39:594][642]LogContentBrowser: End creating deferred item NewFolder
+[2023.01.08-10.58.56:656][666]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.01.08-10.58.56:664][666]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.01.08-10.59.27:043][565]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> W_HUD_01
+[2023.01.08-10.59.27:052][565]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.01.08-10.59.28:864][777]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Main/UMG/W_HUD_01.W_HUD_01
+[2023.01.08-11.02.55:790][238]LogSlate: Window 'Message Log' being destroyed
+[2023.01.08-11.02.55:796][238]LogSlate: Window 'Message Log' being destroyed
+[2023.01.08-11.02.57:350][416]LogSlate: Window 'Color Picker' being destroyed
+[2023.01.08-11.06.25:747][175]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2023.01.08-11.06.25:765][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main/Blueprints/Pawns/BP_Soldier01" FILE="C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Blueprints/Pawns/BP_Soldier01.uasset" SILENT=true
+[2023.01.08-11.06.25:788][175]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/BP_Soldier0126BE7B6D4263FC26234CBEA5F835822D.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/Blueprints/Pawns/BP_Soldier01.uasset'
+[2023.01.08-11.06.25:790][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main/UMG/W_HUD_01" FILE="C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/UMG/W_HUD_01.uasset" SILENT=true
+[2023.01.08-11.06.25:793][175]LogSavePackage: Moving 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Saved/W_HUD_01A8FCC7CD49A4FFCD18AC69B250887C05.tmp' to 'C:/Users/annaf/Documents/GitHub/Top-Down-Shooter-A-Czernecka/Content/Main/UMG/W_HUD_01.uasset'
+[2023.01.08-11.06.25:805][175]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.08-11.06.25:806][175]LogContentValidation: Display: Validating Blueprint /Game/Main/Blueprints/Pawns/BP_Soldier01.BP_Soldier01
+[2023.01.08-11.06.25:806][175]LogContentValidation: Display: Validating WidgetBlueprint /Game/Main/UMG/W_HUD_01.W_HUD_01
